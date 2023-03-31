@@ -1,0 +1,132 @@
+data types
+int numbers
+char ch
+String str
+float fl
+Boolean b
+
+
+
+public class secondnumber {
+
+	public static void main(String[] args) 
+	{
+	
+		
+		
+		
+		
+		//integer to string 
+		int firstnum=5667;		
+		String str2 = Integer.toString(firstnum);
+		
+		System.out.println("integer to string " +str2);
+		
+			
+	    //String to integer 
+		String str="234";
+		int num=Integer.parseInt(str);
+		System.out.println("String to integer "+ num);
+		
+        //integer to double		
+		int d1=100;
+		double dblNumber = (double)d1;
+		System.ou
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		public static void main(String[] args) {
+
+		for(int i=0;i<5;i++)
+		{
+			
+		
+			// i=0  i=1;  i=2 i=3 i=4; i=5;
+			for(int j=5;j>i;j--)
+			{			
+				System.out.print("  "+j);
+							
+			}
+			
+			
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+	}
+
+}
+
+
+
+
+public static void main(String[] args) {
+
+		for(int i=5;i>=0;i--)
+		{					
+			// i=0  i=1;  i=2 i=3 i=4; i=5;
+						
+			for(int j=1;j<=i;j++)
+			{			
+				System.out.print("  "+j);
+							
+			}
+			
+			
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+	}
+
+}
+
+
+	public static void main(String[] args) {
+
+		for(int i=5;i>=0;i--)
+	{					
+			// i=0  i=1;  i=2 i=3 i=4; i=5;
+						
+			for(int j=1;j<=i;j++)
+			{			
+				System.out.print(" * ");
+							
+			}
+			
+			
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+	}
+
+}
+
+
+int sum=10;
+	int	i=8;
+	//sum+=i;
+    sum=sum+i;
+	System.out.println(sum);
