@@ -1,4 +1,4 @@
-package basics;
+package array;
 
 public class OnediaArrayProgram {
 
