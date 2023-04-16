@@ -130,3 +130,18 @@ int sum=10;
 	//sum+=i;
     sum=sum+i;
 	System.out.println(sum);
+	
+	
+	
+	
+	System.out.println("hashmap value:" + hp1.get(1));
+		System.out.println("hashmap value:" + hp1.get(null));
+		// hp1.remove(1);
+		System.out.println(hp1);
+
+		Iterator<Integer> it = hp1.keySet().iterator();
+		while (it.hasNext()) {
+			Integer key = it.next();
+			String value = hp1.get(key);
+			System.out.println("key  = " + key + "    " + "Value = " + value);
+		}
